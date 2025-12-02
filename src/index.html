@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="output.css" />
+    <script type="module" src="index.js"></script>
+    <script type="module" src="data.js"></script>
+  </head>
+  <body>
+    <div class="flex flex-col">
+      <!-- Navigation bar start -->
+      <nav class="bg-red-500 flex flex-col mx-3">
+        <h1
+          class="bg-red-500 text-6xl font-bold text-shadow-white text-center py-">
+          Adventure Movies
+        </h1>
+      </nav>
+      <!-- navigatin bar end -->
+
+      <!-- rating start -->
+      <div class="flex justify-around text-center mx-3">
+        <div class="card" id="totalMovie"></div>
+        <div class="card" id="avrageRating"></div>
+        <div class="card" id="totalReview"></div>
+      </div>
+      <!-- Rating end -->
+
+      <div id="Movielist">
+        <h2 class="bg-red-400 mx-3 text-2xl mx-3 p-5">Movie List</h2>
+        <ul class="mx-3"></ul>
+      </div>
+    </div>
+
+    <div></div>
+  </body>
+</html>

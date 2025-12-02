@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    background-color: bisque;
+    border: 1px solid burlywood;
+    padding: 20px 30px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 30px;
+  }
+}
