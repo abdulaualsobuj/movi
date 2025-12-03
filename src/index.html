@@ -6,14 +6,12 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="output.css" />
     <script type="module" src="index.js"></script>
-    <script type="module" src="data.js"></script>
   </head>
   <body>
     <div class="flex flex-col">
       <!-- Navigation bar start -->
-      <nav class="bg-red-500 flex flex-col mx-3">
-        <h1
-          class="bg-red-500 text-6xl font-bold text-shadow-white text-center py-">
+      <nav class="bg-green-800 flex flex-col mx-3">
+        <h1 class="text-6xl font-bold text-white text-center py-4">
           Adventure Movies
         </h1>
       </nav>
@@ -27,8 +25,22 @@
       </div>
       <!-- Rating end -->
 
-      <div id="Movielist">
-        <h2 class="bg-red-400 mx-3 text-2xl mx-3 p-5">Movie List</h2>
+      <div id="movielist">
+        <div class="bg-green-800 mx-3 p-5 flex">
+          <h2 class="text-white text-3xl font-semibold">Movie List</h2>
+          <span class="text-white text-2xl font-semibold px-5 mt-[5px]">
+            l
+          </span>
+          <button class="text-white text-1xl font-semibold" id="sortBtn">
+            Sort By Rating
+          </button>
+          <span class="text-white text-2xl font-semibold px-5 mt-[5px]">
+            l
+          </span>
+          <button class="text-red-500 text-1xl font-semibold" id="groupBtn">
+            Group
+          </button>
+        </div>
         <ul class="mx-3"></ul>
       </div>
     </div>

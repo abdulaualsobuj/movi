@@ -7,9 +7,10 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tailwind:init": "tailwindcss init"
-  },  
+  },
   "dependencies": {
     "baseline-browser-mapping": "^2.8.32",
     "browserslist": "^4.28.0",
