@@ -1,0 +1,8 @@
+
+ssh key generator code
+$ cat ~/.ssh/id_ed25519.pub
+
+
+
+this project ssh key
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN3eJHgShxGck2SKkiR8oBWOG9emQremv7uvV2qjWWF5 abdulaualsobuj@gmail.com
